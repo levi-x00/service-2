@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/service-2', methods=['GET'])
 def service_2():
-    return "Hello, this is service-2, testcicd1"
+    return "Hello, this is service-2, testcicd2"
 
 @app.route('/health', methods=['GET'])
 def health_check():
